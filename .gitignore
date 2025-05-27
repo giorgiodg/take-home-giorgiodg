@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Local environment variables
+.env
+.env.*
+!.env.local.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Mac system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Prismic generated files (if any)
+.prismic/
+
+# Coverage reports
+coverage/
