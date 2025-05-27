@@ -30,7 +30,7 @@ type PrismicPayload = {
  * @returns An array of objects, each with a `takeaway` property containing
  *          an array with a single paragraph object.
  */
-function formatKeyTakeaways(takeaways: string[]) {
+export function formatKeyTakeaways(takeaways: string[]) {
   return takeaways.map((text) => ({
     takeaway: [
       {
