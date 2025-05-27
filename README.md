@@ -87,6 +87,7 @@
 ```plaintext
 ├── src/
 │   ├── index.ts                    # Entry point
+│   ├── config.ts                   # Configuration logic
 │   ├── lib/
 │   │   ├── ai.ts                   # OpenAI logic
 │   │   ├── prismic.ts              # Prismic API logic
@@ -95,6 +96,7 @@
 │   |   └── summarize.ts            # LLM prompt
 │   └── services/
 │       └── orchestrationService.ts # Orchestration and business logic
+├── tests/                          # Unit tests folder
 ├── .env.local.example              # Example env vars
 ├── README.md
 ├── jest.config.js
